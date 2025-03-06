@@ -1,0 +1,3 @@
+model_path: "models/hazard_kmeans.pkl"
+vectorizer_path: "models/vectorizer.pkl"
+mlflow_uri: "sqlite:///mlflow.db"
