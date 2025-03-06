@@ -44,6 +44,23 @@ hazard_zone_detection/
     └── tracking
 ```
 
+## Data Preparation and Synthetic Data Generation
+
+### FEMA Dataset
+We utilize FEMA's publicly available datasets to inform and inspire realistic scenarios for hazard zone reporting. The official dataset can be found at:
+
+- [FEMA DataSets](https://www.fema.gov/api/open/v1/DataSets.csv)
+
+### Synthetic Dataset
+To enhance privacy and reproducibility, we constructed a synthetic hazard report dataset using FEMA dataset categories as references. Each synthetic report includes:
+- Unique identifiers
+- Disaster types (e.g., Flood, Earthquake, Wildfire)
+- Location details (latitude and longitude)
+- Realistic textual descriptions based on typical FEMA-reported disaster scenarios
+- Timestamps
+
+Synthetic data generation is performed using Python, leveraging Pandas and NLP libraries to produce realistic text and structured data that mirrors real-world FEMA reports.
+
 ## How to Set Up and Run the Project
 
 ### 1. Setup Environment with `uv`
