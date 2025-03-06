@@ -22,6 +22,9 @@ train:
 serve:
 	uv run uvicorn api.main:app --reload
 
+recommend:
+	uv run python src/recommender_system.py
+
 lint:
 	uv run pre-commit run --all-files
 

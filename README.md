@@ -80,7 +80,18 @@ make train
 Uses clustering methods (e.g., KMeans, DBSCAN) to detect hazard zones from report embeddings.
 
 ### Content-based Recommendations
-Uses cosine similarity to recommend hazard reports with similar textual content.
+Workflow of the Recommendation System
+
+Step-by-step flow:
+- Step 1: Preprocess text reports
+  - Tokenization, lemmatization, and stopword removal.
+  - Results in cleaned, standardized text.
+- Step 2: Generate Text Embeddings
+	-	Use TF-IDF vectorizer or advanced embeddings (e.g., TensorFlow Universal Sentence Encoder).
+- Step 3: Compute Similarity Matrix
+  - Cosine similarity between embeddings of reports.
+- Step 4: Serve Recommendations
+  - Given a hazard report, retrieve the most similar reports or zones based on similarity scores.
 
 ## Inference
 Run inference script for new hazard reports:
