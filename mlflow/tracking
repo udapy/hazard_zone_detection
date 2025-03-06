@@ -1,0 +1,9 @@
+import mlflow
+
+mlflow.set_tracking_uri("sqlite:///mlflow.db")
+mlflow.set_experiment("hazard_zone_detection")
+
+with mlflow.start_run():
+    mlflow.log_param("clusters", 10)
+    mlflow.sklearn.log_model(kmeans, "kmeans-model")
+    mlflow.log_metric("inertia", kmeans.inertia_)

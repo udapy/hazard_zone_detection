@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+spacy
+scipy
+tensorflow
+tensorflow-hub
+mlflow
+fastapi
+uvicorn
+joblib
+nltk
+boto3

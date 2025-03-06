@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/uday/ml-workspace/hazard_zone_detection/mlruns/238162187087381265/acdd9d5f8e384768874fdcd9114e7d8a/artifacts
+end_time: 1741234059402
+entry_point_name: ''
+experiment_id: '238162187087381265'
+lifecycle_stage: active
+run_id: acdd9d5f8e384768874fdcd9114e7d8a
+run_name: efficient-gnat-48
+run_uuid: acdd9d5f8e384768874fdcd9114e7d8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741234057796
+status: 3
+tags: []
+user_id: uday

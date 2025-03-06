@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/uday/ml-workspace/hazard_zone_detection/mlruns/238162187087381265/8775c49d34634b9d912a32670db8cb6d/artifacts
+end_time: 1741234027255
+entry_point_name: ''
+experiment_id: '238162187087381265'
+lifecycle_stage: active
+run_id: 8775c49d34634b9d912a32670db8cb6d
+run_name: persistent-asp-819
+run_uuid: 8775c49d34634b9d912a32670db8cb6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741234025605
+status: 3
+tags: []
+user_id: uday

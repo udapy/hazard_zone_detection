@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/uday/ml-workspace/hazard_zone_detection/mlruns/238162187087381265/ce965aee522a455fad8a7905302b3950/artifacts
+end_time: 1741233213930
+entry_point_name: ''
+experiment_id: '238162187087381265'
+lifecycle_stage: active
+run_id: ce965aee522a455fad8a7905302b3950
+run_name: magnificent-worm-174
+run_uuid: ce965aee522a455fad8a7905302b3950
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741233212287
+status: 3
+tags: []
+user_id: uday
